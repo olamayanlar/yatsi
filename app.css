@@ -125,14 +125,15 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
 }
 
 #footer {
-  position: relative;
-  margin-top: -25px; /* negative value of footer height */
-  height: 25px;
-  
-  line-height: 25px;
-  background: #e0e7eb;
-  border-top: 1px solid #c3ccd0;
-  clear:both;
+  background: none repeat scroll 0 0 #E0E7EB;
+    border-top: 1px solid #C3CCD0;
+    bottom: 0;
+    height: 25px;
+    left: 0;
+    line-height: 25px;
+    margin-top: -25px;
+    position: fixed;
+    width: 100%;
 }
 
 #footer .footer-content {
