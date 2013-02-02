@@ -1,4 +1,3 @@
-Poole Bootstrap
+Yatsıyı Bekleyemedik
 =================
 
-A minimal template to get started with Jekyll and Poole.
