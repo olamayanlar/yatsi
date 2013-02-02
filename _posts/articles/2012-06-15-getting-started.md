@@ -9,6 +9,5 @@ categories:
 published: true
 ---
 
------
 
 Take full control about your post, and edit Metadata aka the YAML frontmatter. No limitations.
