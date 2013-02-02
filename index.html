@@ -4,7 +4,7 @@ layout: default
 
 {% for item in site.categories.articles limit:5 offset:0 %}
 <div class="help post-content">
-  <div class="title"> <a href="{{item.url}}">{{item.title}}</a></div>
+  <div class="title"> <a href="{{site.root_dir}}{{item.url}}">{{item.title}}</a></div>
   {{ item.content }}
   <div class="meta"> {{ page.date | date: "%d.%m.%Y" }} </div>
 </div>
