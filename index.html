@@ -1,13 +1,12 @@
 ---
 layout: default
 ---
-<div class="help">
-  {% for item in site.categories.articles limit:40 offset:0 %}
-  <div class="post-content">
-  	<div class="title"> {{item.title}}</div>
-  		{{ item.content }}
- 	 <div class="meta"> {{ page.date | date: "%d.%m.%Y" }} </div>
-	</div>
-	{% endfor %}
+
+{% for item in site.categories.articles limit:40 offset:0 %}
+<div class="help post-content">
+  <div class="title"> {{item.title}}</div>
+  {{ item.content }}
+  <div class="meta"> {{ page.date | date: "%d.%m.%Y" }} </div>
 </div>
+{% endfor %}
 
