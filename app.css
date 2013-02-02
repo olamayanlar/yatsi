@@ -946,8 +946,9 @@ ul.site li a {
   border-top: 1px solid #C3CCD0;
 }
 
-.post-content a {
-  border-bottom: 1px dashed #C3CCD0;}
+/*.post-content a {
+  border-bottom: 1px dashed #C3CCD0;} */
+  
 
 .post-content p {
   margin-bottom: 20px;
