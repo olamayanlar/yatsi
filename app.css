@@ -130,8 +130,6 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
     bottom: 0;
     height: 25px;
     left: 0;
-    line-height: 25px;
-    margin-top: -25px;
     position: fixed;
     width: 100%;
 }
@@ -139,7 +137,7 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
 #footer .footer-content {
   width: 960px;
   margin: 0 auto;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 
