@@ -60,9 +60,6 @@ body,
 textarea,
 input { font: 13px/20px 'OpenSans', sans-serif; }
 
-p{line-height: 30px; text-align: center}
-.title{text-align: center}
-
 h1, h2, h3, h4, h5, h6 {
 	-webkit-margin-before:0px;
 	-webkit-margin-after:0px;
@@ -118,6 +115,9 @@ a:focus {
   outline-offset: -2px;
 }
 .meta{float: right;}
+p{line-height: 30px; text-align: center}
+.title{text-align: center}
+.title a{color:#204859;}
 
 h1,h2,h3,h4,h5,h6 {
   margin: 0;
