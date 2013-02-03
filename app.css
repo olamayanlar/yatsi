@@ -179,6 +179,8 @@ table, tr, td, th{
 	
 .fourth, .slide-4{background: #E8703D; }
 
+.fourth, .slide-any{background: #49565D; }
+
 
 /* ------------------------------------------
   Footer - a sticky one
