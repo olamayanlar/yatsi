@@ -115,7 +115,12 @@ a:focus {
   outline-offset: -2px;
 }
 
-.meta{float: right; font-size: 14px;}
+.meta{
+	float: right; font-size: 14px;
+	position: absolute;
+	left: 20px;
+	bottom: 30px;
+}
 
 p{
 	line-height: 1.2em; 
@@ -164,6 +169,7 @@ table, tr, td, th{
     margin: 36px;
 	margin-bottom: 50px;
     padding: 20px 80px;
+	position: relative;
 }
 .first, .slide-1{	background: #E8703D;}
 	
