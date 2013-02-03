@@ -210,10 +210,6 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
 	opacity: 0.5;
 }
 
-#footer:hover{
-	opacity: 1.0;
-}
-
 #footer .footer-content {
   float: right;
   margin-right: 36px;
