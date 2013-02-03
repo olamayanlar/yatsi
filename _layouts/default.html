@@ -8,10 +8,30 @@
   <link rel='shortcut icon' href='{{site.root_dir}}/images/favicon.ico' type='image/x-icon' />
   <link rel='stylesheet' href='{{site.root_dir}}/fonts/open-sans.css'>
   <link rel='stylesheet' href='{{site.root_dir}}/app.css'>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script>
+    function smoothScroll(id){
+			$('html,body').animate({scrollTop: $("."+id).offset().top -36},'slow');
+	}
+    function onWindowResize(){
+    	$('.slide').css({'height': (($(window).height()) -72)});
+    }
+    $(document).ready(function() {
+      $(".slide a").click(function(e) {
+          e.stopPropagation();
+      });
+      
+      $(".slide").click(function(){
+        smoothScroll($(this).attr("id"));
+      });
+      
+      $(window).bind('resize',onWindowResize);         
+	});
+  </script>
 </head>
 <body>
   <div id='container'>
-    <div id='main'>{{content}}</div>
+    {{content}}
   </div>
 
   <div id='footer'>
