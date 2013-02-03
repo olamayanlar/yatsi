@@ -47,7 +47,7 @@ html {
   Typography
 ---------------------------------------------*/
 html,body {
-  color: #7A8387;
+  color: #fff;
   -webkit-font-smoothing: antialiased;
   height: 100%;
   line-height: 1.5em;
@@ -233,12 +233,5 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
   ios and small screen alterations
 ---------------------------------------------*/
  @media all and (max-width: 480px) {
-  #post .inner {
-    width: 100%;
-    margin: 0;
-    padding: 20px 0 40px;
-    }
-  .toggle-mode {
-    right: 0;
-    }
-  }
+  
+}
