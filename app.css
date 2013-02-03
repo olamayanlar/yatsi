@@ -207,6 +207,11 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
     position: fixed;
     width: 100%;
 	font-size: 13px;
+	opacity: 0.5;
+}
+
+#footer:hover{
+	opacity: 1.0;
 }
 
 #footer .footer-content {
