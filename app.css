@@ -204,12 +204,12 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
     left: 0;
     position: fixed;
     width: 100%;
+	font-size: 13px;
 }
 
 #footer .footer-content {
-  width: 960px;
-  margin: 0 auto;
-  font-size: 13px;
+  float: right;
+  margin-right: 36px;
 }
 
 /* ------------------------------------------
