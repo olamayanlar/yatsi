@@ -22,7 +22,7 @@
       });
       
       $(".slide").click(function(){
-        if($(this).next(".slide"))
+        if($(this).next(".slide").length)
         	smoothScroll($(this).next(".slide"));
         else{
           	smoothScroll($(".slide").first());
