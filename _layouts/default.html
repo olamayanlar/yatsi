@@ -22,7 +22,11 @@
       });
       
       $(".slide").click(function(){
-        smoothScroll($(this).next());
+        if($(this).next(".slide"))
+        	smoothScroll($(this).next(".slide"));
+        else{
+          	smoothScroll($(".slide").first());
+        }
       });
       
       $(window).bind('resize',onWindowResize);
