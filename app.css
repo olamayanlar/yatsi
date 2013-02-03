@@ -48,28 +48,73 @@ html {
 ---------------------------------------------*/
 html,body {
   color: #7A8387;
-  background: #e7eef2;
   -webkit-font-smoothing: antialiased;
   height: 100%;
   line-height: 1.5em;
-  }
+  letter-spacing:0.02em;
+	margin:0px;
+	background: #303235;
+}
 
 body,
 textarea,
 input { font: 13px/20px 'OpenSans', sans-serif; }
 
+
+h1, h2, h3, h4, h5, h6 {
+	-webkit-margin-before:0px;
+	-webkit-margin-after:0px;
+	-moz-margin-before:0px;
+	-moz-margin-after:0px;
+	}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:400;
+	}
+
+h1 {
+	font-size:2.6em;
+	line-height:1.2em;
+	}
+	
+h2 {
+	font-size:2em;
+	}
+
+h3 {
+	font-size:1.7em;
+	line-height:1.6em;
+	}
+
+h4 {
+	font-size: 1.6em;
+	line-height:1.6em;
+	}
+
+h5{
+	font-size:1.5em;
+	line-height:1.6em;
+	}
+	
+h6{
+	font-size:1.4em;
+	line-height:1.55em;
+	}
+	
 a {
   color: #526066;
   text-decoration: none;
-  }
+}
+  
 a:hover {
   color: #204859;
-  }
+}
+  
 a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
-  }
+}
 
 h1,h2,h3,h4,h5,h6 {
   margin: 0;
@@ -99,6 +144,34 @@ h6 { font-size: 11px; font-weight: normal; }
 /* ------------------------------------------
   Globals
 ---------------------------------------------*/
+ 
+table, tr, td, th{
+	vertical-align: middle;
+	text-align:center;
+	width:100%;
+	border-collapse: collapse;
+	border: none
+	border-spacing: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.slide{
+	margin: 36px;
+	-moz-box-shadow: 0 0 5px #000;
+	-webkit-box-shadow: 0 0 5px #000;
+	box-shadow: 0 0 5px #000;
+	cursor: pointer;
+}
+.first{	background: #E8703D;}
+	
+.second{background: #49565D;}
+	
+.third{	background: #ADA248;}	
+	
+.fourth{background: #F4A938;}
+	
+ 
  
 #main {
   padding-top: 0;
