@@ -115,7 +115,7 @@ a:focus {
   outline-offset: -2px;
 }
 
-.meta{float: right;}
+.meta{float: right; font-size: 14px;}
 
 p{
 	line-height: 1.2em; 
