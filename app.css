@@ -162,6 +162,7 @@ table, tr, td, th{
 	-webkit-box-shadow: 0 0 5px #000;
 	box-shadow: 0 0 5px #000;
 	cursor: pointer;
+	background: #E8703D;
 }
 .first{	background: #E8703D;}
 	
