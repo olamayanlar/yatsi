@@ -60,6 +60,8 @@ body,
 textarea,
 input { font: 13px/20px 'OpenSans', sans-serif; }
 
+p{line-height: 30px;}
+
 
 h1, h2, h3, h4, h5, h6 {
 	-webkit-margin-before:0px;
