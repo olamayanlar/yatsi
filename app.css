@@ -191,7 +191,8 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
 
 #container { 
   min-height: 100%;
-  min-width: 960px;
+  /*min-width: 960px;*/
+  width: 100%;
 }
 
 #footer {
