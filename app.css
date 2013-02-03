@@ -165,13 +165,13 @@ table, tr, td, th{
 	background: #E8703D;
 	padding: 20px 50px;
 }
-.first{	background: #E8703D;}
+.first, .slide-1{	background: #E8703D;}
 	
-.second{background: #49565D;}
+.second, .slide-2{background: #49565D;}
 	
-.third{	background: #ADA248;}	
+.third, .slide-3{	background: #ADA248;}	
 	
-.fourth{background: #F4A938;}
+.fourth, .slide-4{background: #F4A938;}
 	
  
  
