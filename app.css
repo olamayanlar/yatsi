@@ -160,10 +160,11 @@ table, tr, td, th{
 	margin: 36px;
 	-moz-box-shadow: 0 0 5px #000;
 	-webkit-box-shadow: 0 0 5px #000;
-	box-shadow: 0 0 5px #000;
-	cursor: pointer;
-	background: #E8703D;
-	padding: 20px 50px;
+	box-shadow: 0 0 5px #000000;
+    cursor: pointer;
+    font-size: 2.5em;
+    margin: 36px;
+    padding: 50px 100px;
 }
 .first, .slide-1{	background: #E8703D;}
 	
