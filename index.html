@@ -6,6 +6,6 @@ layout: default
 <div class="slide slide-{{item.id}}">
   <div class="title"> <a href="{{site.root_dir}}{{item.url}}">{{item.title}}</a></div>
   {{ item.content }}
-  <div class="meta"> {{ page.date | date: "%d.%m.%Y" }} </div>
+  <div class="meta"> {{ item.date | date: "%d.%m.%Y" }} </div>
 </div>
 {% endfor %}
