@@ -196,6 +196,7 @@ and your footer gets pushed down a bit more, creating vertical scroll bars in th
 
 #footer {
   background: none repeat scroll 0 0 #E0E7EB;
+  color: #303235;
     border-top: 1px solid #C3CCD0;
     bottom: 0;
     height: 25px;
