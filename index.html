@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% for item in site.categories.articles limit:5 offset:0 sort_by:date %}
-<div class="help post-content">
+<div class="slide">
   <div class="title"> <a href="{{site.root_dir}}{{item.url}}">{{item.title}}</a></div>
   {{ item.content }}
   <div class="meta"> {{ page.date | date: "%d.%m.%Y" }} </div>
